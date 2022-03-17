@@ -20,7 +20,7 @@ class ChuteONumero:
                 print('Chute mais Alto!!')
                 self.PedirValorAleatorio()
             elif (self.valor_do_chute == self.valor_aleatorio):
-                print(f'PARABÉNS!!! Você acertou em {self.tentativas} !!!',
+                print(f'PARABÉNS!!! Você acertou em {self.tentativas} Tentativas!!!',
                 f'\nO Valor correto era = {self.valor_aleatorio}')
                 self.PedirParaJogarNovamente()
 
